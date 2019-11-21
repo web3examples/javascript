@@ -116,10 +116,11 @@ This document contains info about:
 # VSCode
 
 | Overview         | Install   |  Extensions
-| ----------       | ---------
+| ----------       | --------- |------------
 | [awesome_vscode] | [vscode]  | gitlens
 |                  |           | solidity
 |                  |           | Markdown all in one
+|                  |           | Solidity Visual Auditor
 
 
 
