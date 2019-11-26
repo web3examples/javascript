@@ -1,0 +1,104 @@
+function Test1(x) {
+    console.log(x);
+}
+
+Test2 = y => console.log(y);
+
+Test1(1);
+
+Test2(2);
+
+(z => console.log(z))(3)
+
+// npm install node-fetch
+const fetch = require('node-fetch');
+
+async function asyncFunction() {  
+    const Response = await fetch('https://chainid.network/chains.json');
+    const content = await Response.json();
+    console.log(content[0].name);
+}
+asyncFunction();
+// npm install node-fetch
+const fetch = require('node-fetch');
+
+fetch('https://chainid.network/chains.json2')
+    .then( Response => Response.json())
+    .catch(err => console.error('Catch 1: fetch failed', err.message))
+    .then( content => console.log(content[0].name))
+    .catch(err => console.error('Catch 2: fetch failed', err.message))
+
+
+
+// const declarations are block scoped
+// const cannot be updated or re-declared
+
+const greeter = "hey hi";
+console.log(greeter)
+{
+    const greeter = "new block now";
+    console.log(greeter)
+}
+console.log(greeter)
+// let is block scoped
+
+let greeter = "hey hi";
+greeter = "say Hello instead";
+console.log(greeter)
+{
+    const greeter = "new block now";
+    console.log(greeter)
+}
+ console.log(greeter){
+  "requires": true,
+  "lockfileVersion": 1,
+  "dependencies": {
+    "node-fetch": {
+      "version": "2.6.0",
+      "resolved": "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.0.tgz",
+      "integrity": "sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA=="
+    }
+  }
+}
+
+
+var x=1;
+var y=4;
+
+console.log(`x=${x} y=${y} x+y=${x+y}`);
+
+    
+// npm install node-fetch
+const fetch = require('node-fetch');
+
+    function StepThree(content) {
+       console.log(content[0].name);
+    }
+    
+    function StepTwo(Response) {
+       Response.json().then(StepThree); 
+    }
+    
+    fetch('https://chainid.network/chains.json').then(StepTwo);
+
+// npm install node-fetch
+const fetch = require('node-fetch');
+
+fetch('https://chainid.network/chains.json')
+    .then( Response => Response.json())
+    .then( content => console.log(content[0].name))
+
+
+
+
+// var declarations are globally scoped or function scoped 
+// var variables can be re-declared (in the same scope)
+// var variables are initialized with undefined
+
+var greeter = "hey hi";
+console.log(greeter)    
+{
+    var greeter = "new block now";
+    console.log(greeter)
+}
+console.log(greeter)    
