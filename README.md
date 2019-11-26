@@ -8,7 +8,9 @@ This document contains info about:
 - [Features](#features)
 - [Best practices](#best-practices)
 - [Tools](#tools)
-- [VSCode](#vscode)
+- [Editors](#editors)
+  - [VSCode](#vscode)
+  - [Notepad++](#notepad)
 
 
 # Demo
@@ -118,17 +120,29 @@ See: [Demo](demo)
 [mochajs]:          https://mochajs.org/
 
 
+# Editors
 
-# VSCode
+## VSCode
 
-| Overview         | Install   |  Extensions
+| Overview         | Install   | Extensions
 | ----------       | --------- |------------
 | [awesome_vscode] | [vscode]  | gitlens
 |                  |           | solidity
 |                  |           | Markdown all in one
 |                  |           | Solidity Visual Auditor
 
-
-
 [awesome_vscode]: https://github.com/viatsko/awesome-vscode#readme
 [vscode]:         https://code.visualstudio.com/download
+
+
+## Notepad++
+
+| Install      | Plugins
+| --------     | -----
+| [notepad++]  | [notepadjs1]
+|              | [notepadjs2]
+
+[notepad++]: https://notepad-plus-plus.org/
+
+[notepadjs1]: http://blog.aguskurniawan.net/post/notepadjs.aspx
+[notepadjs2]: https://gist.github.com/lblazecki/6958678
