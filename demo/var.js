@@ -3,9 +3,9 @@
 // var variables are initialized with undefined
 
 var greeter = "hey hi";
-console.log(greeter)    
+console.log(greeter);
 {
     var greeter = "new block now";
-    console.log(greeter)
+    console.log(greeter);
 }
-console.log(greeter)    
+console.log(greeter);

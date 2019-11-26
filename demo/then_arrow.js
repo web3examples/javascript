@@ -5,6 +5,3 @@ fetch('https://chainid.network/chains.json')
     .then( Response => Response.json())
     .then( content => console.log(content[0].name))
 
-
-
-
