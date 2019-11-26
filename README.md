@@ -2,6 +2,7 @@
 Learning javascript
 
 This document contains info about:
+- [Demo](#demo)
 - [Overview](#overview)
 - [Tutorial](#tutorial)
 - [Features](#features)
