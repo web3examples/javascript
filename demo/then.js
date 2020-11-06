@@ -6,8 +6,8 @@ const fetch = require('node-fetch');
     }
     
     function StepTwo(Response) {
-       Response.json().then(StepThree); 
+       return Response.json(); 
     }
     
-    fetch('https://chainid.network/chains.json').then(StepTwo);
+    fetch('https://chainid.network/chains.json').then(StepTwo).then(StepThree);
 
