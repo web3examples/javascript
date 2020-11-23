@@ -1,5 +1,6 @@
 // const declarations are block scoped
 // const cannot be updated or re-declared
+// const have to be initialized
 
 const greeter = "hey hi";
 console.log(greeter)

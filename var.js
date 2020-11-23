@@ -2,6 +2,8 @@
 // var variables can be re-declared (in the same scope)
 // var variables are initialized with undefined
 
+var greeter
+console.log(greeter);
 var greeter = "hey hi";
 console.log(greeter);
 {
